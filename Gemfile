@@ -7,10 +7,14 @@ gem 'rails', '4.2.6'
 group :development do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
+
 end
 
 group :production do
   gem 'pg'
+gem 'rails_12factor', '~> 0.0.3'
+gem 'heroku'
+
 end
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
